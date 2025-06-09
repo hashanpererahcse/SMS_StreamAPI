@@ -13,3 +13,14 @@ pm2 start my-app
 pm2 stop my-app
 pm2 restart
 pm2 delete
+
+---
+
+git rm --cached .env
+
+git commit -m "Remove .env from repository"
+
+git push
+
+
+---
