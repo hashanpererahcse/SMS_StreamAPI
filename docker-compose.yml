@@ -1,4 +1,4 @@
-version: "3"
+version: "3"  # optional — can be removed as Docker warned
 services:
   api:
     build: .
